@@ -1,14 +1,14 @@
 <script setup lang="ts">
 const clickFrom = () => {
-  alert('From');
+  alert("From");
 };
 
 const clickDiv = () => {
-  alert('Div');
+  alert("Div");
 };
 
 const clickP = () => {
-  alert('P');
+  alert("P");
 };
 </script>
 
@@ -18,7 +18,7 @@ const clickP = () => {
     <span
       >solo activa el evento si el event.target es el mismo elemento en si, es
       decir, que no se active el evento desde una propagacion de un elemento
-      hijo)</span
+      hijo</span
     >
     <form class="boder" @click="clickFrom">
       FORM
